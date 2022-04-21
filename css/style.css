@@ -155,11 +155,12 @@ main{
     align-items: center;
     justify-content: space-around;
     gap: 3rem;
-    width: 90%;
     max-width: 70rem;
     margin: 4rem auto;
 }
-
+.currency-table,.corredoras-table{
+    width: 80%;
+}
 table{
     min-width:20rem;
     height: 16rem;
@@ -197,10 +198,7 @@ table td{
 table td span{
     margin-left:1rem;
 }
-.currency-table,.corredoras-table{
-    width: 80%;
 
-}
 .right-row{
     transform: rotate(90deg);
 }
@@ -208,11 +206,79 @@ table td span{
     transform: rotate(-90deg);
 }
 
+/*SECTION 2*/
 
+.main-product-detail-container{
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 2rem 1rem 5rem;
+    background: var(--warm-black);
+}
 
+.batata-logo{
+    position: absolute;
+    top: -1.2rem;
+    left: calc(50% - 3rem);
+    width: 4rem;
+    height: 2.5rem;
+    background-image: url('../assets/icons/potato.svg');
+}
 
+.main-product-detail-container--title{
+    width: 90%;
+    max-width: 90rem;
+    margin: 6.4rem auto 3.2rem;
+    text-align: center;
+}
+.main-product-detail-container--title h2{
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--white);
+    margin-bottom: 2.4rem;
+}
+.main-product-detail-container--title p{
+    font-size: 1.4rem;
+    font-weight: medium;
+    color: #808080;
+}
 
+.product-cards--container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
 
+.product-card{
+    min-width: 28.8rem;
+    max-width: 50rem;
+    height: 15.2rem;
+    padding: 1.6rem;
 
+    border-radius: .4rem;
+    background: var(--warmer-black);
+}
+.product-card img{
+    width: 2.4rem;
+    height: 2.4rem;
+}
+.product-card h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--white);
+    margin: 1rem 0;
+}
+.product-card p {
+    font-size: 1.4rem;
+    font-weight: medium;
+    line-height: 1.8rem;
+    color: var(--dark-gray);
+}
 
 
