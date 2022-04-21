@@ -255,13 +255,12 @@ table td span{
 }
 
 .product-card{
-    min-width: 28.8rem;
     max-width: 50rem;
     height: 15.2rem;
     padding: 1.6rem;
-
     border-radius: .4rem;
     background: var(--warmer-black);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
 }
 .product-card img{
     width: 2.4rem;
@@ -281,4 +280,24 @@ table td span{
     color: var(--dark-gray);
 }
 
+/*SECTION 3*/
 
+.main_hero-container{
+    position:relative;
+    width:100%;
+    min-width: 32rem;
+    height:50vh;
+    background-image: url('../assets/images/bitcoinbaby3x.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main_hero-container h2{
+    position: absolute;
+    font-size: 2.4rem;
+    font-weight: bold;
+    top: 6.5rem;
+    left: calc(50% - 10rem);
+    color: var(--white);
+}
