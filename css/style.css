@@ -4,9 +4,11 @@
     --soft-orange:#FFE9D5;
     --warm-black:#201E1C;
     --warmer-black:#282623;
+    --cream-white:#e5e5e5;
     --off-white:#FAF8F7;
     --white:#FFFFFF;
     --gray:#B5B0AC;
+    --dark-gray:#757575;
     /*Fonts*/
     --font-intel:'Inter', sans-serif;
     --font-sans:'DM Sans', sans-serif;
@@ -99,3 +101,118 @@ header img{
     height:.8rem;
     background-image: url('../assets/icons/Vector.svg');
 }
+
+/*MAIN*/
+
+main{
+    width: 100%;
+    min-width: 32rem;
+    height: auto;
+    background-color:var(--cream-white);
+}
+
+/*SECTION 1*/
+.main_exchage-container{
+    width:100%;
+    height: auto;    
+    padding: 2.4rem;
+    text-align: center;
+}
+
+.main_exchage-container .backgroundImg{
+    width: 20rem;
+    height: 20rem;
+    margin: 2rem  auto 4rem ; 
+    background-image: url('../assets/images/Bitcoin.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main_exchage-container--title{
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.main_exchage-container--title h2{
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    margin-bottom: 2rem;
+    color: var(--warm-black);
+}
+
+.main_exchage-container--title p{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: var(--dark-gray);
+}
+/*TABLE*/
+
+.main_tables-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+    width: 90%;
+    max-width: 70rem;
+    margin: 4rem auto;
+}
+
+table{
+    min-width:20rem;
+    height: 16rem;
+    margin: 0 auto; 
+    border-radius: 1rem;
+    background-color: var(--white);
+    width: 100%;
+}
+tbody{
+    padding:1rem;
+    font-family: var(--font-intel);
+    background: var(--white);
+}
+table caption{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--bitcoin-orange);
+    text-align:start;
+    margin-bottom: 1.5rem;
+}
+table th{
+    padding: 1rem;
+    font-size: 1.6rem;
+    font-weight: normal;
+    color: var(--gray);
+    text-align: left;
+}
+table td{
+    padding: 1rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--dark-gray);
+    text-align: right;
+}
+table td span{
+    margin-left:1rem;
+}
+.currency-table,.corredoras-table{
+    width: 80%;
+
+}
+.right-row{
+    transform: rotate(90deg);
+}
+.left-row{
+    transform: rotate(-90deg);
+}
+
+
+
+
+
+
+
+
+
